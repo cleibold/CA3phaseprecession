@@ -27,7 +27,8 @@ b) create a working directory a dirictory (output) for simulation results and a 
 >> mkdir <ROOTDIR>/figures
 
 c) copy the code into <ROOTDIR>
-d) unzip the simluatin results file
+
+d) unzip the data file
 >> tar xfvz empirical_results.tgz
 
 -Typical install time on a "normal" desktop computer
