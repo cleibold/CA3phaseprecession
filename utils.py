@@ -8,8 +8,7 @@ import matplotlib.pyplot as plt
 from numpy import pi
 from phase_precession_model import CircularLinearRegressor
 
-#rootpth='/home/leibold/Desktop/research/phase_precession_Sia/output'
-rootpth='/home/leibold/homeBWSFS/ongoing_projects/phase_precession_Sia/output'
+rootpth='./'
 
 def gridded_simulation(pp_model, simulator, psi, dc_comp, N_trains, mean_firing_rate, A_VALUES, PHI_INH_VALUES):
     """Simulate spikes from a phase precession model with given parameters on a grid
