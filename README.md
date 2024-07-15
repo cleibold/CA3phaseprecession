@@ -34,9 +34,14 @@ d) unzip the simluatin results file
 less than 15 min
 
 3.  Instructions for use & Demo
-Instructions to run on data
+Demo:
 
-Start gerating the Simulation results
+The jupyter notebook Fig7a-c_simulate_examples.ipynb allows to run the simulations in an interactive way and producess the example runs from Figure 7
+
+Instructions to run on data.
+
+a) Start generating the Simulation results
+
 >> python3 multip.py
 
 Expected Duration: 25 Minutes [with reduced resolution as compared to the manuscript]
@@ -64,7 +69,7 @@ Expected outputs
 
 <ROOTDIR>/output/new-slope_rho_r2_ph0_ph_f-meclesion-psi=0-dc_comp=0.00.npz
 
-Start the plotting scripts
+b) Start the plotting scripts
 >> python3 mid_quartiles.py; python3 do_summary_plots.py
 
 Expected Duration: 2 Minutes
