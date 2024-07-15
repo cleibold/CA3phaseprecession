@@ -2,15 +2,15 @@
 
 1.  System requirements
 
--All software dependencies and operating systems (including version numbers)
-The code was developed and run on a Linux Anaconda3 environment. 
-Software dependencies (including version numbers) are summarized in the conda CA3pp.yml file
+-All software dependencies and operating systems:
+
+The code was developed and run on a Linux Anaconda3 environment. Software dependencies (including version numbers) are summarized in the conda CA3pp.yml file
 
 -Versions the software has been tested on
+
 The software has only been tested on Linux using the libary versions in the CA3pp.yml file
 
--Any required non-standard hardware
-None
+-Any required non-standard hardware: None
 
 2.  Installation guide
 
