@@ -19,14 +19,14 @@ None
 a) We recommend to use Anaconda3 to create a python3 environment CA3pp from the yml file by
 >> conda env create -f CA3pp.yml
 
-b) create a working directory a dirictory (output) for simulation results and a directory (figures) for plots
->> mkdir <ROOTDIR>
+b) create a working directory a directory (output) for simulation results and a directory (figures) for plots
+>> mkdir ROOTDIR
 
->> mkdir <ROOTDIR>/output
+>> mkdir ROOTDIR/output
 
->> mkdir <ROOTDIR>/figures
+>> mkdir ROOTDIR/figures
 
-c) copy the code into <ROOTDIR>
+c) copy the code into ROOTDIR
 
 d) unzip the data file
 >> tar xfvz empirical_results.tgz
@@ -50,25 +50,25 @@ Expected Duration: 25 Minutes [with reduced resolution as compared to the manusc
 Expected outputs
 1) spike times of the three model variants:
 
-<ROOTDIR>/output/simulation_results-control-psi=0-dc_comp=0.00_.pkl
+ROOTDIR/output/simulation_results-control-psi=0-dc_comp=0.00_.pkl
 
-<ROOTDIR>/output/simulation_results-dglesion-psi=0-dc_comp=0.00_.pkl
+ROOTDIR/output/simulation_results-dglesion-psi=0-dc_comp=0.00_.pkl
 
-<ROOTDIR>/output/simulation_results-meclesion-psi=0-dc_comp=0.00_.pkl
+ROOTDIR/output/simulation_results-meclesion-psi=0-dc_comp=0.00_.pkl
 
 2) output of circular linear regression on the model spikes   
 
-<ROOTDIR>/output/new-slope_rho_r2_ph0_ph_f-control-psi=0-dc_comp=0.00.mat
+ROOTDIR/output/new-slope_rho_r2_ph0_ph_f-control-psi=0-dc_comp=0.00.mat
 
-<ROOTDIR>/output/new-slope_rho_r2_ph0_ph_f-control-psi=0-dc_comp=0.00.npz
+ROOTDIR/output/new-slope_rho_r2_ph0_ph_f-control-psi=0-dc_comp=0.00.npz
 
-<ROOTDIR>/output/new-slope_rho_r2_ph0_ph_f-dglesion-psi=0-dc_comp=0.00.mat
+ROOTDIR/output/new-slope_rho_r2_ph0_ph_f-dglesion-psi=0-dc_comp=0.00.mat
 
-<ROOTDIR>/output/new-slope_rho_r2_ph0_ph_f-dglesion-psi=0-dc_comp=0.00.npz
+ROOTDIR/output/new-slope_rho_r2_ph0_ph_f-dglesion-psi=0-dc_comp=0.00.npz
 
-<ROOTDIR>/output/new-slope_rho_r2_ph0_ph_f-meclesion-psi=0-dc_comp=0.00.mat
+ROOTDIR/output/new-slope_rho_r2_ph0_ph_f-meclesion-psi=0-dc_comp=0.00.mat
 
-<ROOTDIR>/output/new-slope_rho_r2_ph0_ph_f-meclesion-psi=0-dc_comp=0.00.npz
+ROOTDIR/output/new-slope_rho_r2_ph0_ph_f-meclesion-psi=0-dc_comp=0.00.npz
 
 b) Start the plotting scripts
 >> python3 mid_quartiles.py; python3 do_summary_plots.py
@@ -78,36 +78,36 @@ Expected outputs
 
 1) Plotting data
 
-<ROOTDIR>/output/Masked_DGC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
+ROOTDIR>/output/Masked_DGC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
 
-<ROOTDIR>/output/Masked_DGX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
+ROOTDIR>/output/Masked_DGX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
 
-<ROOTDIR>/output/Masked_MECC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
+ROOTDIR>/output/Masked_MECC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
 
-<ROOTDIR>/output/Masked_MECX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
+ROOTDIR>/output/Masked_MECX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
 
 
 2) Figures (panels in figure 7)
 
-<ROOTDIR>/figures/figmasks_DGC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
+ROOTDIR/figures/figmasks_DGC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
 
-<ROOTDIR>/figures/figmasks_DGX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
+ROOTDIR/figures/figmasks_DGX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
 
-<ROOTDIR>/figures/figmasks_MECC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
+ROOTDIR/figures/figmasks_MECC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
 
-<ROOTDIR>/figures/figmasks_MECX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
+ROOTDIR/figures/figmasks_MECX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
 
-<ROOTDIR>/figures/figsim_DGC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
+ROOTDIR/figures/figsim_DGC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
 
-<ROOTDIR>/figures/figsim_DGX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
+ROOTDIR/figures/figsim_DGX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
 
-<ROOTDIR>/figures/figsim_MECC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
+ROOTDIR/figures/figsim_MECC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
 
-<ROOTDIR>/figures/figsim_MECX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
+ROOTDIR/figures/figsim_MECX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
 
-<ROOTDIR>/figures/DG_masked-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
+ROOTDIR/figures/DG_masked-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
 
-<ROOTDIR>/figures/MEC_masked-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
+ROOTDIR/figures/MEC_masked-PCT=85-psi=0-dc_comp=0.00-phase_shift180.eps
 
 
 
