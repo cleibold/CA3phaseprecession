@@ -36,8 +36,7 @@ c) copy all files into ROOTDIR
 d) unzip the data file
 >> tar xfvz empirical_results.tgz
 
--Typical install time on a "normal" desktop computer
-less than 15 min
+<b> Typical install time on a "normal" desktop computer:</b> less than 15 min
 
 <h3> 3.  Demo & Instructions for use </h3>
 <b>Demo:</b>
