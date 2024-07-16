@@ -1,20 +1,25 @@
 # CA3phaseprecession
+This repository contains the code and data used to produce Figure 7 in the mansucript
 
-1.  System requirements
+*Distinct roles of dentate gyrus and medial entorhinal cortex inputs for phase precession
+and temporal correlations in the hippocampal CA3 area*
 
--All software dependencies and operating systems:
+by Ahmadi et al.
+
+<h3> 1.  System requirements </h3>
+
+<b>Software dependencies and operating systems:</b>
 
 The code was developed and run on a Linux Anaconda3 environment. Software dependencies (including version numbers) are summarized in the conda CA3pp.yml file
 
--Versions the software has been tested on
+<b>Versions the software has been tested on:</b>
 
 The software has only been tested on Linux using the libary versions in the CA3pp.yml file
 
--Any required non-standard hardware: None
+<b> Any required non-standard hardware:</b> None
 
-2.  Installation guide
+<h3> 2.  Installation guide</h3>
 
--Instructions
 
 a) We recommend to use Anaconda3 to create a python3 environment CA3pp from the yml file by
 >> conda env create -f CA3pp.yml
@@ -26,7 +31,7 @@ b) create a working directory a directory (output) for simulation results and a 
 
 >> mkdir ROOTDIR/figures
 
-c) copy the code into ROOTDIR
+c) copy all files into ROOTDIR
 
 d) unzip the data file
 >> tar xfvz empirical_results.tgz
@@ -34,20 +39,21 @@ d) unzip the data file
 -Typical install time on a "normal" desktop computer
 less than 15 min
 
-3.  Instructions for use & Demo
-Demo:
+<h3> 3.  Demo & Instructions for use </h3>
+<b>Demo:</b>
 
-The jupyter notebook Fig7a-c_simulate_examples.ipynb allows to run the simulations in an interactive way and producess the example runs from Figure 7
+The jupyter notebook Fig7a-c_simulate_examples.ipynb allows to run the simulations in an interactive way and producess the example runs as those shown in Figure 7
 
-Instructions to run on data.
+<b>Instructions to run on data:</b>
 
 a) Start generating the Simulation results
 
 >> python3 multip.py
 
-Expected Duration: 25 Minutes [with reduced resolution as compared to the manuscript]
+*Expected Duration: 25 Minutes [with reduced resolution as compared to the manuscript]*
 
-Expected outputs
+*Expected outputs*
+
 1) spike times of the three model variants:
 
 ROOTDIR/output/simulation_results-control-psi=0-dc_comp=0.00_.pkl
@@ -73,8 +79,9 @@ ROOTDIR/output/new-slope_rho_r2_ph0_ph_f-meclesion-psi=0-dc_comp=0.00.npz
 b) Start the plotting scripts
 >> python3 mid_quartiles.py; python3 do_summary_plots.py
 
-Expected Duration: 2 Minutes
-Expected outputs
+*Expected Duration: 2 Minutes*
+
+*Expected outputs:*
 
 1) Plotting data
 
