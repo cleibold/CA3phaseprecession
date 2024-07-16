@@ -500,4 +500,4 @@ dependencies:
       - neo==0.12.0
       - noise==1.2.2
       - quantities==0.14.1
-prefix: /opt/anaconda3/envs/Sia
+prefix: /opt/anaconda3/envs/CA3pp
