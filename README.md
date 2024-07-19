@@ -84,13 +84,13 @@ b) Start the plotting scripts
 
 1) Plotting data
 
-ROOTDIR>/output/Masked_DGC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
+ROOTDIR/output/Masked_DGC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
 
-ROOTDIR>/output/Masked_DGX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
+ROOTDIR/output/Masked_DGX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
 
-ROOTDIR>/output/Masked_MECC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
+ROOTDIR/output/Masked_MECC-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
 
-ROOTDIR>/output/Masked_MECX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
+ROOTDIR/output/Masked_MECX-PCT=85-psi=0-dc_comp=0.00-phase_shift180.pkl
 
 
 2) Figures (panels in figure 7)
